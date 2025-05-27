@@ -3,7 +3,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 app.use('/', createProxyMiddleware({
-    target: 'https://example.com',
+    target:https://1wbfqv.life/',
     changeOrigin: true,
     pathRewrite: { '^/': '/' }
 }));
